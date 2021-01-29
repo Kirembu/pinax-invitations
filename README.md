@@ -117,7 +117,7 @@ Get started by adding the following blocks to your templates to expose an invite
 and display to the user a list of who they have invited:
 
 ```django
-{% load pinax_invitations_tags %}
+{% load zerxis_invitations_tags %}
 
 <div class="invites">
     {% invite_form request.user %}
@@ -134,7 +134,7 @@ which shows the user if they were logged in or not, you might include
 this tag to show the number of invites remaining for a user:
 
 ```django
-{% load pinax_invitations_tags %}
+{% load zerxis_invitations_tags %}
 
 {% invites_remaining user %}
 ```
@@ -378,7 +378,7 @@ Fragment displays how many invites a particular user has.
 
 ### 3.0.0
 
-* Rename templatetag library from invitations_tags to pinax_invitations_tags
+* Rename templatetag library from invitations_tags to zerxis_invitations_tags
 
 ### 2.1.1
 
