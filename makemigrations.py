@@ -12,9 +12,9 @@ DEFAULT_SETTINGS = dict(
         "django.contrib.auth",
         "django.contrib.contenttypes",
         "django.contrib.sites",
-        "account",
-        "pinax.invitations",
-        "pinax.invitations.tests"
+        "zerxis_account",
+        "zerxis.invitations",
+        "zerxis.invitations.tests"
     ],
     MIDDLEWARE_CLASSES=[],
     DATABASES={
@@ -24,7 +24,7 @@ DEFAULT_SETTINGS = dict(
         }
     },
     SITE_ID=1,
-    ROOT_URLCONF="pinax.invitations.tests.urls",
+    ROOT_URLCONF="zerxis.invitations.tests.urls",
     SECRET_KEY="notasecret",
 )
 
@@ -40,7 +40,7 @@ def run(*args):
 
     django.core.management.call_command(
         "makemigrations",
-        "pinax_invitations",
+        "zerxis_invitations",
         *args
     )
 

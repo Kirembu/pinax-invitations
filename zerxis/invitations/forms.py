@@ -1,7 +1,7 @@
 from django import forms
 from django.utils.translation import gettext as _
 
-from account.models import EmailAddress
+from zerxis_account.models import EmailAddress
 
 from .models import JoinInvitation
 

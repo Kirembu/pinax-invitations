@@ -8,7 +8,7 @@ from django.utils.decorators import method_decorator
 from django.views.generic import View
 from django.views.generic.edit import FormMixin
 
-from account.mixins import LoginRequiredMixin
+from zerxis_account.mixins import LoginRequiredMixin
 
 from .forms import InviteForm
 from .models import InvitationStat, JoinInvitation

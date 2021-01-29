@@ -52,10 +52,10 @@ setup(
     author="Pinax Team",
     author_email="team@pinaxproject.com",
     description="a user to user join invitations app",
-    name="pinax-invitations",
+    name="zerxis-invitations",
     long_description=LONG_DESCRIPTION,
     version=VERSION,
-    url="http://github.com/pinax/pinax-invitations/",
+    url="http://github.com/kirembu/zerxis-invitations/",
     license="MIT",
     packages=find_packages(),
     package_data={

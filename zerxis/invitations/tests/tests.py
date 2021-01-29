@@ -1,9 +1,9 @@
 from django.contrib.auth.models import User
 from django.core.management import call_command
 
-from account.models import SignupCode
-from pinax.invitations.forms import InviteForm
-from pinax.invitations.models import InvitationStat, JoinInvitation
+from zerxis_account.models import SignupCode
+from zerxis.invitations.forms import InviteForm
+from zerxis.invitations.models import InvitationStat, JoinInvitation
 from test_plus.test import TestCase
 
 

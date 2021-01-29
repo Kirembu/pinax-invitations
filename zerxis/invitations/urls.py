@@ -9,7 +9,7 @@ from .views import (
     TopOffUserView,
 )
 
-app_name = "pinax_invitations"
+app_name = "zerxis_invitations"
 
 urlpatterns = [
     url(r"^invite/$", InviteView.as_view(), name="invite"),

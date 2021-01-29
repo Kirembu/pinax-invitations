@@ -6,9 +6,9 @@ from django.utils.translation import gettext_lazy as _
 
 class AppConfig(BaseAppConfig):
 
-    name = "pinax.invitations"
-    label = "pinax_invitations"
-    verbose_name = _("Pinax Invitations")
+    name = "zerxis.invitations"
+    label = "zerxis_invitations"
+    verbose_name = _("Zerxis Invitations")
 
     def ready(self):
-        importlib.import_module("pinax.invitations.receivers")
+        importlib.import_module("zerxis.invitations.receivers")

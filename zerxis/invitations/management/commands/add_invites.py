@@ -1,6 +1,6 @@
 from django.core.management.base import BaseCommand
 
-from pinax.invitations.models import InvitationStat
+from zerxis.invitations.models import InvitationStat
 
 
 class Command(BaseCommand):
