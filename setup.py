@@ -80,7 +80,7 @@ setup(
     install_requires=[
         "django>=2.2",
         "django-appconf>=1.0.1",
-        "django-user-accounts>=2.0.3",
+        "zerxis-user-accounts>=2.0.3",
     ],
     test_suite="runtests.runtests",
     tests_require=[

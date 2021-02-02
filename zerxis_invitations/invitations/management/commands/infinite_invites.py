@@ -1,7 +1,7 @@
 from django.contrib.auth import get_user_model
 from django.core.management.base import BaseCommand
 
-from zerxis.invitations.models import InvitationStat
+from zerxis_invitations.invitations.models import InvitationStat
 
 
 class Command(BaseCommand):

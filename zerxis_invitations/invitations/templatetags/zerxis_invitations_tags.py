@@ -1,7 +1,7 @@
 from django import template
 
-from zerxis.invitations.forms import InviteForm
-from zerxis.invitations.models import InvitationStat
+from zerxis_invitations.invitations.forms import InviteForm
+from zerxis_invitations.invitations.models import InvitationStat
 
 register = template.Library()
 

@@ -13,8 +13,8 @@ DEFAULT_SETTINGS = dict(
         "django.contrib.contenttypes",
         "django.contrib.sites",
         "zerxis_account",
-        "zerxis.invitations",
-        "zerxis.invitations.tests"
+        "zerxis_invitations.invitations",
+        "zerxis_invitations.invitations.tests"
     ],
     MIDDLEWARE_CLASSES=[],
     DATABASES={
@@ -24,7 +24,7 @@ DEFAULT_SETTINGS = dict(
         }
     },
     SITE_ID=1,
-    ROOT_URLCONF="zerxis.invitations.tests.urls",
+    ROOT_URLCONF="zerxis_invitations.invitations.tests.urls",
     SECRET_KEY="notasecret",
 )
 
